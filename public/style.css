@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+}
+  
+.header {
+  position: relative;  
+  width :2000px; 
+  height: 55px;
+}
+
+#headerLog, #navigation, #headerLogin, #headerBwl {
+  position: absolute;
+  z-index: 2;
+}
+
+#headerLog {
+  width: 160px; 
+  padding-top: 20px; 
+  left: 400px;
+}
+
+#navigation {
+  padding: 24px;
+  left: 600px;
+  font-size: 14px;;  
+  float: left;
+  height: 0px;
+  overflow: clip;
+}
+ a:link {
+   color:black;
+   text-decoration: none;
+ }
+ a:hover {
+   font-weight: bold;
+ }
+ #navigation a {
+   padding-right: 10px;
+ }
+ #headerLogin {
+   padding-top: 25px;
+   left: 1535px;
+ }
+ #headerBwl {
+  padding-top: 25px;
+  left: 1570px;
+}
+
+.mainFrame {
+  position: relative;
+  width: 2000px;
+
+}
+
+#mainLeft {
+  position: absolute;
+  top:53%;
+  left : 250px;
+  z-index: 2;
+}
+#mainRight {
+  position: absolute;
+  top:53%;
+  left : 1750px;
+  z-index: 2;
+}
+
+.footer {
+  position: relative;
+  padding-top: 100px;
+  width :1200px;
+  left: 400px;
+}
+#footerBwl {
+  position: absolute;
+  top:350px;
+  left: 140px;
+  z-index: 2;
+}
+#footerYaskawa {
+ position: absolute;
+ top:355px;
+ left: 950px;
+ z-index: 2;
+}
